@@ -6,22 +6,30 @@
 
 body{
   font-family: sans-serif;
-  background-color: #AF40FF;
-  }
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background-image: linear-gradient(to right, purple, rgb(66, 66, 194)) !important;
+}
 
-  .text{
-      color: white;
-  }
 
-  .area-login{
-    background-color: rgba(0, 0, 0, 0.8);
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 100px;
-      border-radius: 15px;
-  }
+
+.text{
+  color: white;
+}
+
+.area-login{
+  padding: 100px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 400px;
+  position: relative;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
 
 /* styling the span */
 .form-control {
@@ -71,21 +79,21 @@ body{
 
   /*styling button */
   button {
-    align-items: center;
+    position: relative;
+    width: 113px;
+    height: 58px;
+    margin-left: 45px;
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
     border: 0;
     border-radius: 8px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-    box-sizing: border-box;
     color: #FFFFFF;
-    display: flex;
+
     font-family: Phantomsans, sans-serif;
     font-size: 18px;
-    justify-content: center;
+
     line-height: 1em;
-    max-width: 100%;
-    min-width: 140px;
-    padding: 3px;
+
     text-decoration: none;
     user-select: none;
     -webkit-user-select: none;
